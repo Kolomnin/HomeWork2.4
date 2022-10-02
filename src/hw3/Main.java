@@ -3,56 +3,56 @@ package hw3;
 public class Main {
     public static void main(String[] args) {
 
-        Herbivores gazelle = new Herbivores("Gazelle", 5, "field", 40, "herbal");
+        Herbivore gazelle = new Herbivore("Gazelle", 5, "field", 40, "herbal");
         System.out.println(gazelle);
         gazelle.go();
         gazelle.eat();
         gazelle.graze();
         System.out.println();
 
-        Herbivores giraffe = new Herbivores("Giraffe", 3, "tropical steppes", 20, "herbal");
+        Herbivore giraffe = new Herbivore("Giraffe", 3, "tropical steppes", 20, "herbal");
         System.out.println(giraffe);
         giraffe.go();
         giraffe.eat();
         giraffe.graze();
         System.out.println();
 
-        Herbivores horse = new Herbivores("Horse", 12, "field", 40, "herbal");
+        Herbivore horse = new Herbivore("Horse", 12, "field", 40, "herbal");
         System.out.println(horse);
         horse.go();
         horse.eat();
         horse.graze();
         System.out.println();
 
-        Predators hyena = new Predators("Hyena", 9, "african savannas", 50, "meet");
+        Predator hyena = new Predator("Hyena", 9, "african savannas", 50, "meet");
         System.out.println(hyena);
         hyena.go();
         hyena.eat();
         hyena.hunt();
         System.out.println();
 
-        Predators tiger = new Predators("Tiger", 3, "low mountains", 40, "meet");
+        Predator tiger = new Predator("Tiger", 3, "low mountains", 40, "meet");
         System.out.println(tiger);
         tiger.go();
         tiger.eat();
         tiger.hunt();
         System.out.println();
 
-        Predators bear = new Predators("Медведь", 5, "Россия", 50, "рыба");
+        Predator bear = new Predator("Медведь", 5, "Россия", 50, "рыба");
         System.out.println(bear);
         tiger.go();
         tiger.eat();
         tiger.hunt();
         System.out.println();
 
-        Amphibians frog = new Amphibians("Frog", 1, "Swampy area");
+        Amphibian frog = new Amphibian("Frog", 1, "Swampy area");
         System.out.println(frog);
         frog.go();
         frog.eat();
         frog.hunt();
         System.out.println();
 
-        Amphibians grassSnake = new Amphibians("grass-snake", 1, "forest");
+        Amphibian grassSnake = new Amphibian("grass-snake", 1, "forest");
         System.out.println(grassSnake);
         frog.go();
         frog.eat();

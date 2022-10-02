@@ -1,6 +1,6 @@
 package hw3;
 
-public class Flying extends Birds{
+public class Flying extends Bird{
     public Flying(String nameAnimal, int age, String livingEnvironment, String moveType) {
         super(nameAnimal, age, livingEnvironment, moveType);
     }
